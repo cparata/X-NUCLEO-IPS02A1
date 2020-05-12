@@ -1,0 +1,34 @@
+#######################################
+# Syntax Coloring Map For X-NUCLEO-IPS02A1
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Component	KEYWORD1
+PowerSwitch	KEYWORD1
+VPS2535H	KEYWORD1
+XNucleoIPS02A1	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+instance KEYWORD2
+get_current	KEYWORD2
+init	KEYWORD2
+close	KEYWORD2
+read_id	KEYWORD2
+VPS2535H_get_secure_current_sense	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+NUM_CHANNELS	LITERAL1
+CHANNEL_1	LITERAL1
+CHANNEL_2	LITERAL1
+V_SENSE_TC_TYPICAL	LITERAL1
+VCC_TRANSFER_FUNCT	LITERAL1
+K	LITERAL1
