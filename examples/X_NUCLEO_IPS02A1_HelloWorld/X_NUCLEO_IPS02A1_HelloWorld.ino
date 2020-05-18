@@ -80,7 +80,11 @@ static XNucleoIPS02A1 &ips_expansion_board = XNucleoIPS02A1::instance(IPS02A1_PI
 float multisense_signal = 0;    // Multisense pin - signal level
 bool  button_pressed = 0;       // User Button
 int   test_sequence = 1;        // Test sequence counter
+#ifndef USER_BTN
 const int buttonPin = PC13;
+#else
+const int buttonPin = USER_BTN;
+#endif
 int pushButtonState = LOW;
  
 //------------------------------------
